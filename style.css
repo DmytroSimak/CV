@@ -1,0 +1,107 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 16px;
+  color: aliceblue;
+  font: italic 16px Arial, Helvetica, sans-serif;
+}
+
+.ava {
+  width: 75%;
+  border-radius: 50%;
+  border-style: dashed;
+  }
+
+.contacts {
+ 
+  padding-left: 10px;
+  color: aliceblue;
+  font: italic 16px Arial, Helvetica, sans-serif;
+}
+
+.mail{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: aliceblue;
+  font: italic 16px Arial, Helvetica, sans-serif;
+}
+
+.phone{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: aliceblue;
+  font: italic 16px Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: url(./image/BG.jpg);
+  background-size: 25%;
+}
+
+main {
+  color: aliceblue;
+  font: italic 16px Arial, Helvetica, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  border-bottom: 2px dashed rgb(213, 224, 171);
+}
+
+.table td {
+  padding-bottom: 15px ;
+  width: 200px;
+}
+
+.table tr:nth-child(1){
+  border-bottom: 1px solid white;
+}
+
+.table td:nth-child(1),
+.table td:nth-child(2) {
+  border-right: 1px solid white
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3){
+  padding-left: 10px;
+}
+
+span[data-descr] {
+  position: relative;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: help;
+}
+
+span[data-descr]:hover::after {
+  content: attr(data-descr);
+  position: absolute;
+  left: 200px;
+  top: 0px;
+  width: 200px;
+  border: 1px #aaaaaa solid;
+  border-radius: 10px;
+  background-color: #8c929457;
+    padding: 12px;
+    color: #fdfdfd;
+  font-size: 16px ;
+  font-family: serif;
+  font-weight: bold;
+  z-index: 1;
+}
+
+footer {
+  color: aliceblue;
+  font: italic 16px Arial, Helvetica, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.ft {
+  border-bottom: 2px dashed rgb(213, 224, 171);
+  padding: 20px;
+}
